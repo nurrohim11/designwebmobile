@@ -102,6 +102,8 @@ ul, ol {
   text-align: center;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  width: 100%;
+  margin-top: 20px
 }
 
 .primary-btn:hover, .primary-btn:focus {
@@ -2188,4 +2190,9 @@ textarea.input {
     float: none;
     margin-top: 10px;
   }
+}
+.col-md-7.form-login {
+    background: #fbfbfb;
+    border: solid 1px #efefef;
+    padding: 40px;
 }
